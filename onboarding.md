@@ -16,11 +16,11 @@ We have even started participating in the Learning in Public initiative by creat
 
 One thing that you'll have to get used to if you haven't worked with Lisps/Emacs before is structural editing. This is because there are so many parens! You'll get used to it, and eventually even really like it! The following list has popular text editors and the main plugins used with them.
 
-- VS Code: Calva
-- Emacs: CIDER
-- Intelli-J: Cursive
-- Vim: Fireplace or Conjure
-- Atom: Chlorine
+-   VS Code: Calva
+-   Emacs: CIDER
+-   Intelli-J: Cursive
+-   Vim: Fireplace or Conjure
+-   Atom: Chlorine
 
 Your text editor should give you hints as you type, and give you keybindings that easily pull docs and examples up. This is pretty important because there are so many (awesome!) functions in clojure.core, it's easy to forget their interfaces 😅.
 
@@ -34,23 +34,25 @@ The Athens [CONTRIBUTING.md](https://github.com/athensresearch/athens/blob/maste
 
 Depending on how much time you have and how familiar you are with FPs/Lisps, it is recommended to spend 1-4 weeks with the following resources:
 
-- Books and Other Text
-  - [Clojure from the Ground Up](https://aphyr.com/tags/Clojure-from-the-ground-up) (suggest skipping Ch 5 "Macros" for now)
-  - [Clojure for the Brave and True](https://www.braveclojure.com/clojure-for-the-brave-and-true/) (suggest skipping ch11 (core.async), ch7 (only skip the section about Macros), ch8 (Writing Macros))
-  - [Getting Clojure](https://pragprog.com/titles/roclojure/) (not a free resource, but highly recommended by the community)
-- Problems and Exercises
-  - [4Clojure](http://www.4clojure.com/) - The problems are broken down by difficulty (Elementary, Easy, Medium and Hard). However, you might find it more useful to complete problems that match what you're reading. For example, if you've just read Chapter 4 of Clojure from the Ground Up (Sequences), give the problems that are tagged "seqs" a shot.
-  - [Exercism](https://exercism.io/tracks/clojure)
-- 1-day Guided Workshop
+-   Books and Other Text
+    -   [Clojure from the Ground Up](https://aphyr.com/tags/Clojure-from-the-ground-up) (suggest skipping Ch 5 "Macros" for now)
+    -   [Clojure for the Brave and True](https://www.braveclojure.com/clojure-for-the-brave-and-true/) (suggest skipping ch11 (core.async), ch7 (only skip the section about Macros), ch8 (Writing Macros))
+-   Problems and Exercises
 
-  - [Clojure by Example](https://github.com/inclojure-org/clojure-by-example) (not for absolute beginner programmers)
+    -   [4Clojure](http://www.4clojure.com/) - The problems are broken down by difficulty (Elementary, Easy, Medium and Hard). However, you might find it more useful to complete problems that match what you're reading. For example, if you've just read Chapter 4 of Clojure from the Ground Up (Sequences), give the problems that are tagged "seqs" a shot.
+    -   [Exercism](https://exercism.io/tracks/clojure)
 
-- Once you have reached Chapter 6 of Clojure from the Ground Up and you've learned about Atoms and State, you can start looking at the following resources
-  - Intro to ClojureScript
-  - [Intro to Reagent](https://reagent-project.github.io/)
-  - [re-frame tutorial](https://purelyfunctional.tv/guide/re-frame-building-blocks)
-  - [Learn DataLog Today](http://www.learndatalogtoday.org/)
-- Gaining some baseline knowledge about re-frame, DataScript (& DataLog) will allow you to dive into the Athens Codebase and get started much quicker!
+-   Once you have reached Chapter 6 of Clojure from the Ground Up and you've learned about Atoms and State, you can start looking at the following resources
+    -   Intro to ClojureScript
+    -   [Intro to Reagent](https://reagent-project.github.io/)
+    -   [re-frame tutorial](https://purelyfunctional.tv/guide/re-frame-building-blocks)
+    -   [Learn DataLog Today](http://www.learndatalogtoday.org/)
+-   Gaining some baseline knowledge about re-frame, DataScript (& DataLog) will allow you to dive into the Athens Codebase and get started much quicker!
+
+-   Paid Tutorial/Courses
+    -   1-day Guided Workshop
+        -   [Clojure by Example](https://github.com/inclojure-org/clojure-by-example) (not for absolute beginner programmers)
+    -   [Getting Clojure](https://pragprog.com/titles/roclojure/) (not a free resource, but highly recommended by the community)
 
 ### Questions to Evaluate Your Understanding
 
@@ -58,27 +60,27 @@ How well do you grok Clojure? That is, do you intuit the design principles and p
 
 It should be noted that you are not expected to answer these questions perfectly as a beginner. Indeed, some of these questions may even make a Clojure sensei like Jeroen pause and think. Ultimately, there isn't one right answer. And as Socrates taught us, sometimes just sitting with the questions is good enough. 🙂
 
-- Why are there so many **core functions** in clojure.core? What affordances does this give the programmer?
-- What is a **persistent data structure**? What affordances does they give the programmer?
-- Why is **concurrency** harder in some languages than others?
-- Why is Clojure a **Lisp**? What affordances do Lisps give to programmers?
-- What affordances does Clojure's **REPL** give to the programmer?
-- Why is Clojure a **hosted language**? What affordances does this give the programmer?
-- What is **lazy evaluation? W**hat are **lazy sequences**? Why might laziness be useful?
+-   Why are there so many **core functions** in clojure.core? What affordances does this give the programmer?
+-   What is a **persistent data structure**? What affordances does they give the programmer?
+-   Why is **concurrency** harder in some languages than others?
+-   Why is Clojure a **Lisp**? What affordances do Lisps give to programmers?
+-   What affordances does Clojure's **REPL** give to the programmer?
+-   Why is Clojure a **hosted language**? What affordances does this give the programmer?
+-   What is **lazy evaluation**? What are **lazy sequences**? Why might laziness be useful?
 
 ### Cheatsheets
 
 Cheatsheets are very useful when you're getting started. Clojure has an extensive core library and you might not always remember the appropriate core function to handle a particular problem. If you're stuck, check the docs or a cheatsheet!
 
-- [Clojure Cheatsheet](https://clojure.org/api/cheatsheet)
-- [ClojureScript Cheatsheet](https://cljs.info/cheatsheet/)
-- [ClojureDocs Quick Reference](http://clojuredocs.org/quickref)
+-   [Clojure Cheatsheet](https://clojure.org/api/cheatsheet)
+-   [ClojureScript Cheatsheet](https://cljs.info/cheatsheet/)
+-   [ClojureDocs Quick Reference](http://clojuredocs.org/quickref)
 
 Here are some other assorted resources that you might find useful -
 
-- [Effective Programs - 10 Years of Clojure - Rich Hickey](https://www.youtube.com/watch?v=2V1FtfBDsLU)
-- [History of Clojure - Rich Hickey](https://cdn.discordapp.com/attachments/708375112537342025/738747035808825534/clojure-hopl-iv-final.pdf)
-- [Official Clojure Rationale](https://clojure.org/about/rationale)
+-   [Effective Programs - 10 Years of Clojure - Rich Hickey](https://www.youtube.com/watch?v=2V1FtfBDsLU)
+-   [History of Clojure - Rich Hickey](https://cdn.discordapp.com/attachments/708375112537342025/738747035808825534/clojure-hopl-iv-final.pdf)
+-   [Official Clojure Rationale](https://clojure.org/about/rationale)
 
 ## Re-frame
 
@@ -96,9 +98,12 @@ Re-frame introduces a few new concepts such as `fx` and `cofx`, and it's not a p
 | fx           |                    |
 | cofx         |                    |
 
-IMO, a better way to learn re-frame than to read docs is to get your hands dirty with code and look at real-world examples. I recommend going through the following resources.
+A better way to learn re-frame than to read docs is to get your hands dirty with code and look at real-world examples. We recommend going through the following resources.
 
-1. [re-frame tutorial by PurelyFunctional.tv](https://purelyfunctional.tv/guide/re-frame-building-blocks/)
+1. [re-frame tutorial by PurelyFunctional.tv](https://purelyfunctional.tv/guide/re-frame-building-blocks/) and [re-frame's documentation's about the data loop](https://day8.github.io/re-frame/a-loop/)
+
+    At this point you should try to build something of your own. It should be a small re-frame application that does one thing and that ideally you would use (think pomodoro timer, tip calculator, weather widget, etc.)
+
 2. [re-frame-10x TodoMVC](https://github.com/day8/re-frame-10x/tree/master/examples/todomvc). You can toggle the dashboard open and close with `ctrl-h`.
 3. [re-frame simple and TodoMVC](https://github.com/day8/re-frame/tree/master/examples/simple)
 4. [re-posh TodoMVC](<https://github.com/denistakeda/re-posh/tree/master/examples/todomvc](https://github.com/denistakeda/re-posh/tree/master/examples/todomvc)
@@ -137,10 +142,10 @@ For 3-6, these are the Datomic docs that apply to Datascript as well. The others
 
 ### Bonus Questions
 
-- Why do Clojurians worship Rich Hickey?
-- Who are your favorite Clojurians?
-- Where do you see the principle of **accretion** at play in the Clojure world?
-- Do you notice anything different about the Clojure community (e.g. on the Clojurians Slack or /r/clojure) compared to other language communities you've been a part of?
+-   Why do Clojurians worship Rich Hickey?
+-   Who are your favorite Clojurians?
+-   Where do you see the principle of **accretion** at play in the Clojure world?
+-   Do you notice anything different about the Clojure community (e.g. on the Clojurians Slack or /r/clojure) compared to other language communities you've been a part of?
 
 ## cljs-devtools
 
