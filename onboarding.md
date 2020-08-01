@@ -12,9 +12,9 @@ If you want to learn with other like-minded individuals, you can join our Clojur
 
 We have even started participating in the Learning in Public initiative by creating our own version: the [Learning Clojure in Public](https://github.com/athensresearch/ClojureFam/blob/master/doc/learning-in-public.md) initiative.
 
-## Resources
+## Curriculum
 
-Depending on how much time you have and how familiar you are with FPs/Lisps, I recommend spending 1-4 weeks with the following resources:
+Depending on how much time you have and how familiar you are with FPs/Lisps, it is recommended to spend 1-4 weeks with the following resources:
 
 -   Books and Other Text
     -   [Clojure from the Ground Up](https://aphyr.com/tags/Clojure-from-the-ground-up) (suggest skipping Ch 5 "Macros" for now)
@@ -24,7 +24,14 @@ Depending on how much time you have and how familiar you are with FPs/Lisps, I r
     -   [4Clojure](http://www.4clojure.com/)
     -   [Exercism](https://exercism.io/tracks/clojure)
 -   1-day Guided Workshop
+
     -   [Clojure by Example](https://github.com/inclojure-org/clojure-by-example) (not for absolute beginner programmers)
+
+-   Once you have reached Chapter 6 of Clojure from the Ground Up you can start looking at the following ressources
+    -   Intro to ClojureScript
+    -   [Intro to Reagent](https://reagent-project.github.io/)
+    -   [re-frame tutorial](https://purelyfunctional.tv/guide/re-frame-building-blocks)
+    -   [Learn Datalog Today](http://www.learndatalogtoday.org/)
 
 ## Cheatsheets
 
