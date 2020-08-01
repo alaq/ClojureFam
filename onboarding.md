@@ -1,5 +1,9 @@
 # Onboarding
 
+Welcome to the beginning of your Clojure journey!
+
+If you're reading this it means you are getting started with ClojureFam and want to learn with other like-minded individuals.
+
 ## Getting Help
 
 Learning a new language can be intimidating. Especially a more avant-garde one like Clojure. But don't worry, you'll always have help! You can always ask questions in the #🧠-learning channel of our Discord or in the relevant channels of [http://clojurians.net/](http://clojurians.net/): #beginners, #re-frame, #datascript, etc.
@@ -8,21 +12,21 @@ Learning a new language can be intimidating. Especially a more avant-garde one l
 
 If you haven’t already, subscribe to the [Athens repo](https://github.com/athensresearch/athens). See if you can make sense of the commits, issues, PRs of other devs. Hopefully their comments will give you context for Clojure in the wild.
 
-If you want to learn with other like-minded individuals, you can join our Clojure learning program called [ClojureFam](https://github.com/athensresearch/ClojureFam/blob/master/doc/learning-in-public.md). It is a 5-week program with the ultimate goal of contributing to the Athens code base.
-
 We have even started participating in the Learning in Public initiative by creating our own version: the [Learning Clojure in Public](https://github.com/athensresearch/ClojureFam/blob/master/doc/learning-in-public.md) initiative.
 
 ## IDE
 
 One thing that you'll have to get used to if you haven't worked with Lisps/Emacs before is structural editing. This is because there are so many parens! You'll get used to it, and eventually even really like it! The following list has popular text editors and the main plugins used with them.
 
--   VS Code: Calva
+-   VS Code: [Calva](https://calva.io)
 -   Emacs: CIDER
--   Intelli-J: Cursive
+-   Intelli-J: [Cursive](https://cursive-ide.com/)
 -   Vim: Fireplace or Conjure
 -   Atom: Chlorine
 
 Your text editor should give you hints as you type, and give you keybindings that easily pull docs and examples up. This is pretty important because there are so many (awesome!) functions in clojure.core, it's easy to forget their interfaces 😅.
+
+If you are a beginner we recommend VS Code or Cursive as there is very little setting up to do and come bundled with a lot of tools already (paredit, formatting, linting, debugging, etc.).
 
 One thing you will also have to adjust to is the REPL, but the REPL is your friend! See this [video](https://vvvvalvalval.github.io/posts/what-makes-a-good-repl.html) for how REPL-driven programming makes you more productive.
 
